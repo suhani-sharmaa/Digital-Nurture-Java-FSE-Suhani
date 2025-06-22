@@ -1,0 +1,28 @@
+->Understanding Recursive Algorithms
+
+What is Recursion?
+Recursion is a programming technique where a function calls itself to solve a smaller version of the same problem.
+
+Key Concepts:
+- Base Case: The condition under which the recursion ends.
+- Recursive Case: The part where the function calls itself with a smaller input.
+
+Why Use Recursion?
+- Simplifies code for problems that have repeated substructure.
+- Commonly used in problems like factorial, Fibonacci series, and tree traversal.
+
+Example:
+Calculating factorial of n:
+factorial(n) = n * factorial(n - 1)
+Base case: factorial(0) = 1
+
+Real-Life Analogy:
+Think of Russian nesting dolls — you open one, and there's another inside, until you reach the smallest one.
+
+Pros:
+- Elegant and clean code for some problems.
+- Reduces complex problems into simpler ones.
+
+Cons:
+- Can be inefficient without optimization (e.g., memoization).
+- May cause stack overflow for large inputs.

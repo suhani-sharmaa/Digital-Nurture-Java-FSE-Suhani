@@ -1,0 +1,26 @@
+->Recursive Algorithm Analysis
+
+Time Complexity:
+For a recursive function like:
+  futureValue(n) = futureValue(n - 1) * (1 + rate)
+
+Time Complexity = O(n)
+Because the function makes one call per year.
+
+Space Complexity:
+Also O(n), because each recursive call is stored in the call stack until it completes.
+
+Problems with Recursion:
+- Inefficient for large inputs due to repeated calculations.
+- Stack overflow risk if the recursion depth is too high.
+
+Optimization Tips:
+1. Memoization: Store results of previous calls and reuse them.
+2. Iterative Approach: Use loops to avoid recursion and save space.
+3. Tail Recursion: In some languages, tail-recursive functions are optimized better.
+
+When to Use Recursion:
+- When the problem is naturally recursive (like trees, backtracking).
+- When simplicity and clarity are more important than raw performance.
+->Recursion is suitable for simple or small-scale forecasting tasks where clarity is important. 
+For larger data ranges or production-level tools, iterative or optimized approaches (like memoization or loops) are preferred.
