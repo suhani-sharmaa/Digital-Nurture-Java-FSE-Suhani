@@ -1,5 +1,5 @@
 Digital Nurture Java FSE – Suhani 
-->Week 2 Completed
+->Week 3 Completed
 
 Topics Covered:
 Design Principles and Patterns:
@@ -25,7 +25,14 @@ SL4J Logging exercises->
 Exercise 1: Logging Error Messages and Warning Levels
 
 
+Spring Core and Maven:
+Exercise 1: Configuring a Basic Spring Application
+Exercise 2: Implementing Dependency Injection
+Exercise 4: Creating and Configuring a Maven Project
 
+Spring Data JPA with Spring Boot, Hibernate:
+HandsOn1->Spring Data JPA - Quick Example
+HandsOn2->Difference between JPA, Hibernate and Spring Data JPA
 
 
 
