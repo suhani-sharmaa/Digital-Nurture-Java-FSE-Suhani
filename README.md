@@ -1,5 +1,5 @@
 Digital Nurture Java FSE – Suhani 
-->Week 3 Completed
+->Week 4 Completed
 
 Topics Covered:
 Design Principles and Patterns:
@@ -34,7 +34,13 @@ Spring Data JPA with Spring Boot, Hibernate:
 HandsOn1->Spring Data JPA - Quick Example
 HandsOn2->Difference between JPA, Hibernate and Spring Data JPA
 
-
+Spring REST using SpringBoot 3:
+Exercise 1: A Spring Web Project using Maven
+Exercise 2: Spring Core – Load Country from Spring Configuration XML
+Exercise 3: Hello World RESTful Web Service
+Exercise 4: REST - Country Web Service
+Exercise 5: REST - Get country based on country code
+Exercise 6: authentication service that returns JWT
 
 
 
