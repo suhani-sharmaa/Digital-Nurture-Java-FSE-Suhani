@@ -1,5 +1,5 @@
 Digital Nurture Java FSE – Suhani 
-->Week 4 Completed
+->Week 5 Completed
 
 Topics Covered:
 Design Principles and Patterns:
@@ -42,6 +42,9 @@ Exercise 4: REST - Country Web Service
 Exercise 5: REST - Get country based on country code
 Exercise 6: authentication service that returns JWT
 
+
+Microservices with Spring Boot 3 and Spring Cloud:
+Exercise:Creating Microservices for account and loan
 
 
 
