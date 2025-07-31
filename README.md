@@ -1,5 +1,5 @@
 Digital Nurture Java FSE – Suhani 
-->Week 6 Completed
+->Week 7 Completed
 
 Topics Covered:
 Design Principles and Patterns:
@@ -46,7 +46,8 @@ Microservices with Spring Boot 3 and Spring Cloud:
 Exercise:Creating Microservices for account and loan
 
 ReactJs:
-Exercise 1: myfirstreact (First React Project)
+HandsOnLearning 1-5
+HandsOnLearning 9-13
 
 
 > Further weeks will be added as the program progresses.  
