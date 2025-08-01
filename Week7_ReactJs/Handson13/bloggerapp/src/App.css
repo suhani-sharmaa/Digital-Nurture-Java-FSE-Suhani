@@ -1,0 +1,17 @@
+.horizontal-layout {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  padding: 90px;
+}
+
+.section {
+  padding: 10px 20px;
+  flex: 1;
+}
+
+.separator {
+  width: 3px;
+  background-color: green;
+  height: 400px;
+}
