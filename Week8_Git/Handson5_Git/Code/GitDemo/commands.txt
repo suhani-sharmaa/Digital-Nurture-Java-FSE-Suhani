@@ -1,0 +1,196 @@
+
+C:\Users\Dell>cd https://gitlab.com/ssuhani2909-group/GitDemo.git
+The filename, directory name, or volume label syntax is incorrect.
+
+C:\Users\Dell>cd C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>cd GitDemo
+The system cannot find the path specified.
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git remote add origin https://gitlab.com/ssuhani2909-group/GitDemo.git
+error: remote origin already exists.
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git branch -M main
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git push -uf origin main
+Enumerating objects: 11, done.
+Counting objects: 100% (11/11), done.
+Delta compression using up to 8 threads
+Compressing objects: 100% (4/4), done.
+Writing objects: 100% (6/6), 480 bytes | 480.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (2/2), completed with 2 local objects.
+To https://github.com/suhani-sharmaa/Digital-Nurture-Java-FSE-Suhani.git
+   b79d537a..f909cb94  main -> main
+warning: branch.main.remote has multiple values
+warning: branch.main.merge has multiple values
+branch 'main' set up to track 'origin/main'.
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git checkout main
+D       Week8_Git/Handson4_Git/Code/.gitignore
+D       Week8_Git/Handson4_Git/Code/1
+D       Week8_Git/Handson4_Git/Code/3
+D       Week8_Git/Handson4_Git/Code/git
+D       Week8_Git/Handson4_Git/Code/hello.xml
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        deleted:    ../../Handson4_Git/Code/.gitignore
+        deleted:    ../../Handson4_Git/Code/1
+        deleted:    ../../Handson4_Git/Code/3
+        deleted:    ../../Handson4_Git/Code/git
+        deleted:    ../../Handson4_Git/Code/hello.xml
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../../Week5_Microservices/Handson1_Microservices_with_API_gateway/Code/account/newFile.java
+        ../../Handson1_Git/
+        ../../Handson2_Git/
+        ../../Handson3_Git/
+
+no changes added to commit (use "git add" and/or "git commit -a")
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git branch -a
+  GitWor
+  GitWork
+* main
+  remotes/origin/Git-T03-HOL_002
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git pull origin main
+From https://github.com/suhani-sharmaa/Digital-Nurture-Java-FSE-Suhani
+ * branch              main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git checkout GIT-T03-HOL_002
+branch 'GIT-T03-HOL_002' set up to track 'origin/GIT-T03-HOL_002'.
+Switched to a new branch 'GIT-T03-HOL_002'
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git add .
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git commit -m "Pushing pending changes from Git-T03-HOL_002"
+On branch GIT-T03-HOL_002
+Your branch is up to date with 'origin/GIT-T03-HOL_002'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../../Week5_Microservices/Handson1_Microservices_with_API_gateway/Code/account/newFile.java
+        ../../
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git push origin Git-T03-HOL_002
+fatal: Git-T03-HOL_002 cannot be resolved to branch
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git branch -a
+* GIT-T03-HOL_002
+  GitWor
+  GitWork
+  main
+  remotes/origin/Git-T03-HOL_002
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git checkout -b Git-T03-HOL_002 origin/Git-T03-HOL_002
+fatal: a branch named 'Git-T03-HOL_002' already exists
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git add .
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git commit -m "Pushing pending changes"
+On branch GIT-T03-HOL_002
+Your branch is up to date with 'origin/GIT-T03-HOL_002'.
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        ../../../Week5_Microservices/Handson1_Microservices_with_API_gateway/Code/account/newFile.java
+        ../../
+
+nothing added to commit but untracked files present (use "git add" to track)
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git push origin Git-T03-HOL_002
+fatal: Git-T03-HOL_002 cannot be resolved to branch
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>cd ..
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git>cd ..
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git>cd ..
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani>cd Week8_Git
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git>cd Handson5_Git
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git>cd Code
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>cd GitDemo
+The system cannot find the path specified.
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>git clone https://gitlab.com/ssuhani2909-group/GitDemo.git
+Cloning into 'GitDemo'...
+remote: Enumerating objects: 27, done.
+remote: Counting objects: 100% (27/27), done.
+remote: Compressing objects: 100% (17/17), done.
+remote: Total 27 (delta 4), reused 0 (delta 0), pack-reused 0 (from 0)
+Receiving objects: 100% (27/27), 4.93 KiB | 841.00 KiB/s, done.
+Resolving deltas: 100% (4/4), done.
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code>cd GitDemo
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>git branch -M main
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>git push -uf origin main
+branch 'main' set up to track 'origin/main'.
+Everything up-to-date
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>git checkout main
+Already on 'main'
+Your branch is up to date with 'origin/main'.
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>git status
+On branch main
+Your branch is up to date with 'origin/main'.
+
+nothing to commit, working tree clean
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>git branch -a
+* main
+  remotes/origin/HEAD -> origin/main
+  remotes/origin/main
+  remotes/origin/master
+  remotes/origin/my-feature
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>git pull origin main
+From https://gitlab.com/ssuhani2909-group/GitDemo
+ * branch            main       -> FETCH_HEAD
+Already up to date.
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>git checkout -b Git-T03-HOL_002 origin/Git-T03-HOL_002
+fatal: 'origin/Git-T03-HOL_002' is not a commit and a branch 'Git-T03-HOL_002' cannot be created from it
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>git checkout -b Git-T03-HOL_002
+Switched to a new branch 'Git-T03-HOL_002'
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>git add .
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>git commit -m "Initital commit for Git-T03-HOL_002"
+On branch Git-T03-HOL_002
+nothing to commit, working tree clean
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>git push origin Git-T03-HOL_002
+Total 0 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+remote:
+remote: To create a merge request for Git-T03-HOL_002, visit:
+remote:   https://gitlab.com/ssuhani2909-group/GitDemo/-/merge_requests/new?merge_request%5Bsource_branch%5D=Git-T03-HOL_002
+remote:
+To https://gitlab.com/ssuhani2909-group/GitDemo.git
+ * [new branch]      Git-T03-HOL_002 -> Git-T03-HOL_002
+
+C:\Users\Dell\Desktop\Digital-Nurture-Java-FSE-Suhani\Week8_Git\Handson5_Git\Code\GitDemo>
