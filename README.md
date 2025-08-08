@@ -1,5 +1,5 @@
 Digital Nurture Java FSE – Suhani 
-->Week 7 Completed
+->Week 8 Completed
 
 Topics Covered:
 Design Principles and Patterns:
@@ -49,5 +49,5 @@ ReactJs:
 HandsOnLearning 1-5
 HandsOnLearning 9-13
 
-
-> Further weeks will be added as the program progresses.  
+GIT:
+HandsonLearning 1-5
